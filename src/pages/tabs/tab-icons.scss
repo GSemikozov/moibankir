@@ -1,0 +1,66 @@
+ion-icon {
+  &[class*="custom-"] {
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    $sz: 20px;
+    width: $sz;
+    height: $sz;
+  }
+  // custom icons
+  &[class*="home"][ng-reflect-is-active="true"] {
+    background: url("../assets/icon/icon_home-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  //in case of active
+  &[class*="home"][ng-reflect-is-active="false"] {
+    background: url("../assets/icon/icon_home-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  //in case of inactive
+  &[class*="home-inactive"] {
+    background: url("../assets/icon/icon_home-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  &[class*="instruments"][ng-reflect-is-active="true"] {
+    background: url("../assets/icon/icon_instruments-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  //in case of active
+  &[class*="instruments"][ng-reflect-is-active="false"] {
+    background: url("../assets/icon/icon_instruments-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  //in case of inactive
+  &[class*="instruments-inactive"] {
+    background: url("../assets/icon/icon_instruments-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  &[class*="news"][ng-reflect-is-active="true"] {
+    background: url("../assets/icon/icon_news-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  //in case of active
+  &[class*="news"][ng-reflect-is-active="false"] {
+    background: url("../assets/icon/icon_news-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  //in case of inactive
+  &[class*="news-inactive"] {
+    background: url("../assets/icon/icon_news-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  &[class*="about"][ng-reflect-is-active="true"] {
+    background: url("../assets/icon/icon_about-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  //in case of active
+  &[class*="about"][ng-reflect-is-active="false"] {
+    background: url("../assets/icon/icon_about-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  //in case of inactive
+  &[class*="about-inactive"] {
+    background: url("../assets/icon/icon_about-tab.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+}
