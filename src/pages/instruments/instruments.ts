@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {CreditsPage} from "../credits/credits";
 import {DepositsCalculatorPage} from "../deposits-calculator/deposits-calculator";
 
 @Component({
