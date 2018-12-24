@@ -1,0 +1,48 @@
+page-credits {
+  .custom-btn {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    height: auto;
+    background-color: transparent;
+    overflow: visible;
+    border: none;
+    box-shadow: none;
+  }
+  .custom-btn .button-inner {
+    height: 77px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 3px;
+    padding: 22px 16px 22px 24px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #324058;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+
+    .content {
+      position: relative;
+      display: inline-block;
+      padding-left: 60px;
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+    }
+  }
+  .custom-icon {
+    color: #c2c6cd;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

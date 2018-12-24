@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import {CreditsPage} from "../credits/credits";
+import {DepositsCalculatorPage} from "../deposits-calculator/deposits-calculator";
 
 @Component({
   selector: 'page-instruments',
@@ -7,8 +9,10 @@ import { NavController } from 'ionic-angular';
 })
 export class InstrumentsPage {
 
-  constructor(public navCtrl: NavController) {
+    pushPage: any;
 
-  }
+    constructor(public navCtrl: NavController) {
+        this.pushPage = DepositsCalculatorPage;
+    }
 
 }

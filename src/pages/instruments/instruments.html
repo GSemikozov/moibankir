@@ -1,20 +1,33 @@
 <ion-header>
   <ion-navbar color="primary">
-    <button ion-button icon-only color="primary">
-      <div menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </div>
-    </button>
     <ion-title>Инструменты</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <ion-grid>
+    <ion-row align-items-center justify-content-center class="instruments-list">
+      <ion-col col-12><button ion-button [navPush]="pushPage">
+        <img src="/assets/icon/icon_deposit-calendar.svg" alt />
+        <h5 class="instruments-list__title">
+          Депозитный<br/>
+          калькулятор
+        </h5>
+      </button></ion-col>
+      <ion-col col-12><button ion-button>
+        <img src="/assets/icon/icon_credit-calculator.svg" alt />
+        <h5 class="instruments-list__title">
+          Кредитный<br/>
+          калькулятор
+        </h5>
+      </button></ion-col>
+      <ion-col col-12><button ion-button>
+        <img src="/assets/icon/icon_exchange-calculator.svg" alt />
+        <h5 class="instruments-list__title">
+          Конвертер<br/>
+          валют
+        </h5>
+      </button></ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

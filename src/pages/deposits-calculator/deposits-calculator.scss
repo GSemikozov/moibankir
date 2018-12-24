@@ -1,0 +1,124 @@
+page-deposits {
+  .text-center, .text-input {
+    text-align: center;
+  }
+  .text-input {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    color: #324058;
+    caret-color: #43c7d2;
+  }
+  .text-input:placeholder {
+    color: #e4e6e9 !important;
+  }
+  ion-label {
+    color: #c9ccd4;
+    margin: 13px 20px 4px 0 !important;
+    text-transform: none;
+  }
+  .range-ios {
+    padding: 8px 16px 10px !important;
+  }
+
+  .range-knob {
+    width: 21px !important;
+    height: 21px !important;
+    left: 10px !important;
+    top: 10px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3) !important;
+    background-image: linear-gradient(180deg, #78e5eb 0%, #43c7d2 100%) !important;
+  }
+  .range-bar.range-bar-active {
+    height: 3px;
+  }
+  .item-range, .item-range .item-inner {
+    padding: 0 !important;
+  }
+  .item-range .item-inner {
+    border-bottom: none !important;
+  }
+  .item-range ion-range ion-label {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.34px;
+    color: #989fab;
+  }
+  [range-left] {
+    position: absolute;
+    left: 16px;
+    bottom: 0;
+    margin: 0 20px 0 0 !important;
+  }
+
+  [range-right] {
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+    margin: 0 0 0 20px !important;
+  }
+  .custom-block {
+    padding: 15px 20px;
+
+    &.-grey {
+      background-color: #f7f7fa;
+    }
+
+    &.-border-top {border-top: 0.55px solid #c8c7cc;}
+
+    .title {
+      color: #969dab;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: -0.48px;
+      margin: 5px 0 20px;
+      text-align: center;
+    }
+
+    .custom-card {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      background-color: #ffffff;
+      padding: 0 24px;
+      margin-bottom: 20px;
+      &__item {
+        padding: 18px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        color: #324058;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.34px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        b {
+          color: #43c7d2;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .text-secondary {
+      color: #43c7d2;
+    }
+  }
+  .no-margin {
+    margin: 0;
+  }
+  .list-header-ios {
+    border-top: 0.55px solid #c8c7cc;
+  }
+  .toolbar-ios ion-title {
+    padding: 0 80px 1px;
+  }
+  .list-md + ion-list ion-list-header {
+    margin-bottom: 0;
+  }
+}

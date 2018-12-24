@@ -1,3 +1,59 @@
 page-instruments {
+  .instruments-list > .col {
+    border-bottom: 1px solid #dbdde3;
+    height: calc((100vh - 93px)/3);
+    padding: 0;
+  }
+  .instruments-list > .col > a, .instruments-list > .col > button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-decoration: none;
+    //display: flex;
+    //flex-direction: column;
+    //align-items: center;
+    //justify-content: center;
+    background-color: transparent;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    margin: 0;
 
+    &:focus, &:active {
+      background-image: linear-gradient(180deg, #78e5eb 0%, #43c7d2 100%);
+
+      .instruments-list__title {
+        color: #fff;
+        font-size: 16px;
+      }
+    }
+  }
+  .instruments-list > .col > button .button-inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: none;
+
+    img {
+      margin-left: 10%;
+    }
+  }
+  .grid {
+    padding: 0;
+  }
+  .instruments-list__title {
+    color: #324058;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    margin-top: 8px;
+    width: 50%;
+    padding: 0 10%;
+  }
+  .range-knob {
+    background: #43c7d2;
+  }
 }

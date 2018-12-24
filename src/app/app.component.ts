@@ -27,14 +27,14 @@ export class MyApp {
 
   rootPage:any = TabsPage;
   // pages: Array<{title: string, component: any}>
-
-  pages: PageInterface[] = [
-      { title: 'Главная', pageName: 'Tabs1Root', tabComponent: 'Tab1Page', index: 0 },
-      { title: 'Инструменты', pageName: 'Tabs2Root', tabComponent: 'Tab2Page', index: 1 },
-      { title: 'Новости', pageName: 'Tabs3Root', tabComponent: 'Tab3Page', index: 2 },
-      { title: 'О нас', pageName: 'Tabs4Root', tabComponent: 'Tab4Page', index: 3 },
-      // { title: 'Специальная', pageName: 'CreditsPage' },
-  ];
+  //
+  // pages: PageInterface[] = [
+  //     { title: 'Главная', pageName: 'Tabs1Root', tabComponent: 'Tab1Page', index: 0 },
+  //     { title: 'Инструменты', pageName: 'Tabs2Root', tabComponent: 'Tab2Page', index: 1 },
+  //     { title: 'Новости', pageName: 'Tabs3Root', tabComponent: 'Tab3Page', index: 2 },
+  //     { title: 'О нас', pageName: 'Tabs4Root', tabComponent: 'Tab4Page', index: 3 },
+  //     // { title: 'Специальная', pageName: 'CreditsPage' },
+  // ];
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

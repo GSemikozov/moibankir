@@ -1,0 +1,93 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title> Депозитный калькулятор</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-list-header color='light' class="item list-header">Сумма депозита</ion-list-header>
+            <ion-grid>
+                <ion-row justify-content-center>
+                    <ion-col col-6>
+                        <ion-item class="item item-block">
+                            <ion-input type="text" placeholder="100 000" class="text-center"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col col-12>
+                        <ion-item>
+                            <ion-range min="1000" max="1000000" [(ngModel)]="saturation" color="secondary">
+                                <ion-label range-left>1000</ion-label>
+                                <ion-label range-right>1000000</ion-label>
+                            </ion-range>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
+    </ion-list>
+    <ion-list>
+        <ion-list-header color='light' class="item list-header">Срок депозита (в месяцах)</ion-list-header>
+        <ion-grid>
+            <ion-row justify-content-center>
+                <ion-col col-6>
+                    <ion-item class="item item-block">
+                        <ion-input type="text" placeholder="0 месяцев" class="text-center"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-12>
+                    <ion-item>
+                        <ion-range min="1000" max="1000000" [(ngModel)]="smth" color="secondary">
+                            <ion-label range-left>1000</ion-label>
+                            <ion-label range-right>1000000</ion-label>
+                        </ion-range>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-list>
+    <ion-list>
+        <ion-list-header color='light' class="item list-header">СГодовая ставка, %</ion-list-header>
+        <ion-grid>
+            <ion-row justify-content-center>
+                <ion-col col-6>
+                    <ion-item class="item item-block">
+                        <ion-input type="text" placeholder="0 %" class="text-center"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-12>
+                    <ion-item>
+                        <ion-range min="3" max="22" [(ngModel)]="smtg" color="secondary">
+                            <ion-label range-left>0 %</ion-label>
+                            <ion-label range-right>22 %</ion-label>
+                        </ion-range>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-list>
+    <ion-list class="no-margin">
+        <ion-list-header color='light' class="item list-header">Условия</ion-list-header>
+        <div class="custom-block">
+            <h6 class="text-secondary no-margin">Капитализация</h6>
+        </div>
+        <div class="custom-block -grey -border-top">
+            <h5 class="title">Результат рассчета</h5>
+            <div class="custom-card">
+                <div class="custom-card__item">
+                    <span>Платеж в месяц</span>
+                    <b>58 005 KZT</b>
+                </div>
+                <div class="custom-card__item">
+                    <span>Переплата %</span>
+                    <b>1 450 121 KZT</b>
+                </div>
+            </div>
+        </div>
+    </ion-list>
+</ion-content>

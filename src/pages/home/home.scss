@@ -2,7 +2,7 @@ page-home {
   .homepage-list > .col {
     border-right: 1px solid #dbdde3;
     border-bottom: 1px solid #dbdde3;
-    height: calc((100vh - 100px)/3);
+    height: calc((100vh - 93px)/3);
     padding: 0;
     &:nth-child(2n) {
       border-right: 0;
@@ -49,4 +49,8 @@ page-home {
     color: #324058;
     white-space: nowrap;
   }
+}
+
+.back-button-text {
+  display: none;
 }

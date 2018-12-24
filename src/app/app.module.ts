@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { InstrumentsPage } from '../pages/instruments/instruments';
 import { TabsPage } from '../pages/tabs/tabs';
 import { CreditsPage } from '../pages/credits/credits';
+import { DepositsCalculatorPage } from '../pages/deposits-calculator/deposits-calculator';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NewsPage,
     HomePage,
     TabsPage,
-      CreditsPage
+    CreditsPage,
+    DepositsCalculatorPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NewsPage,
     HomePage,
     TabsPage,
-      CreditsPage
+    CreditsPage,
+    DepositsCalculatorPage
   ],
   providers: [
     StatusBar,
