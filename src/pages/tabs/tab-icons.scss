@@ -8,7 +8,7 @@ ion-icon {
   }
   // custom icons
   &[class*="home"][ng-reflect-is-active="true"] {
-    background: url("../assets/icon/icon_home-tab.svg") no-repeat 50% 50%;
+    background: url("../assets/icon/icon_home-tab-active.svg") no-repeat 50% 50%;
     background-size: contain;
   }
   //in case of active
@@ -22,7 +22,7 @@ ion-icon {
     background-size: contain;
   }
   &[class*="instruments"][ng-reflect-is-active="true"] {
-    background: url("../assets/icon/icon_instruments-tab.svg") no-repeat 50% 50%;
+    background: url("../assets/icon/icon_instruments-tab-active.svg") no-repeat 50% 50%;
     background-size: contain;
   }
   //in case of active
@@ -36,7 +36,7 @@ ion-icon {
     background-size: contain;
   }
   &[class*="news"][ng-reflect-is-active="true"] {
-    background: url("../assets/icon/icon_news-tab.svg") no-repeat 50% 50%;
+    background: url("../assets/icon/icon_news-tab-active.svg") no-repeat 50% 50%;
     background-size: contain;
   }
   //in case of active
@@ -50,7 +50,7 @@ ion-icon {
     background-size: contain;
   }
   &[class*="about"][ng-reflect-is-active="true"] {
-    background: url("../assets/icon/icon_about-tab.svg") no-repeat 50% 50%;
+    background: url("../assets/icon/icon_about-tab-active.svg") no-repeat 50% 50%;
     background-size: contain;
   }
   //in case of active

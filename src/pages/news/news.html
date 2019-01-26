@@ -4,12 +4,26 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+<ion-content padding>
+  <button ion-button class="custom-btn padding-sm">
+    <span class="text-sm">Сегодня 21.09.18</span>
+    <span class="text-lg">USD ЦБ  66,00  <span class="text-red">-0,17</span> </span>
+  </button>
+  <h3 class="section-title">ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</h3>
+  <button ion-button class="custom-btn black-transparent">
+    <img src="assets/icon/icon_house.svg" alt />
+    Лучшая ипотека
+  </button>
+  <button ion-button class="custom-btn black-transparent">
+    <img src="assets/icon/icon_education.svg" alt />
+    <span>Лучший образовательный кредит</span>
+  </button>
+  <button ion-button class="custom-btn black-transparent">
+    <img src="assets/icon/icon_auto.svg" alt />
+    Лучший автокредит
+  </button>
+  <button ion-button class="custom-btn blue-transparent" [navPush]="pushPage">
+    <img src="assets/imgs/locobank-logo.png" alt />
+    <span class="text-sm">Получите -0,5 %<br> от ставки по кредиту</span>
+  </button>
 </ion-content>

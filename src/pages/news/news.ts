@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import {LocobankPage} from "../locobank/locobank";
 
 @Component({
   selector: 'page-news',
@@ -7,8 +8,10 @@ import { NavController } from 'ionic-angular';
 })
 export class NewsPage {
 
-  constructor(public navCtrl: NavController) {
+    pushPage: any;
 
-  }
+    constructor(public navCtrl: NavController) {
+        this.pushPage = LocobankPage;
+    }
 
 }

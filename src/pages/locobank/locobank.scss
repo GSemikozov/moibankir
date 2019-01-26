@@ -1,0 +1,75 @@
+page-locobank {
+  ion-navbar.toolbar {
+    height: 190px;
+  }
+  .toolbar-background {
+    background: url('/assets/imgs/laptop2.png') right bottom no-repeat !important;
+    background-size: cover !important;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(180deg, rgba(121, 191, 217, 0.9) 0%, rgba(27, 144, 200, 0.9) 100%);
+    }
+  }
+  .back-button.show-back-button {
+    align-self: flex-start;
+  }
+  .section-title {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0 40px;
+    color: #324058;
+  }
+  .custom-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 35px;
+    margin-bottom: 25px;
+    &__icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background-color: rgba(68, 171, 232, 0.8);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      img {
+        max-width: 44px;
+      }
+    }
+    &__body {
+      font-size: 16px;
+      line-height: 19px;
+      color: #324058;
+      padding-left: 25px;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  .yellow-btn {
+    background-color: #ffba21;
+    height: 44px;
+    border-radius: 4rem;
+    padding: 13px 60px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    &:hover, &:focus, &:active {
+      background-color: rgb(285, 147, 83);
+    }
+  }
+}

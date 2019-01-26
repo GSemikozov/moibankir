@@ -13,6 +13,10 @@ import { DepositsCalculatorPage } from '../pages/deposits-calculator/deposits-ca
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {LocobankPage} from "../pages/locobank/locobank";
+import {ExchangePage} from "../pages/exchange/exchange";
+import {PaymentsPage} from "../pages/payments/payments";
+import {BankcardsPage} from "../pages/bankcards/bankcards";
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     CreditsPage,
-    DepositsCalculatorPage
+    DepositsCalculatorPage,
+    LocobankPage,
+    ExchangePage,
+      PaymentsPage,
+      BankcardsPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +46,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     CreditsPage,
-    DepositsCalculatorPage
+    DepositsCalculatorPage,
+    LocobankPage,
+    ExchangePage,
+      PaymentsPage,
+      BankcardsPage
   ],
   providers: [
     StatusBar,
